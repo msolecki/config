@@ -1,0 +1,42 @@
+{
+  "name": "project-config",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "description": "Base configuration for new projects",
+  "main": "index.js",
+  "files": [
+    "tsconfig-next.json",
+    "tsconfig.json",
+    "eslintrc-next.json",
+    "eslintrc.json",
+    "prettier.json",
+    "next.js",
+    "stylelint.js",
+    "postcss.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-security": "^1.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.7.1",
+    "stylelint": "14.11.0",
+    "stylelint-config-standard": "28.0.0",
+    "stylelint-order": "5.0.0",
+    "stylelint-scss": "4.3.0",
+    "postcss": "8.4.16",
+    "postcss-scss": "4.0.4"
+  }
+}
