@@ -24,7 +24,7 @@ Add configuration to package.json
 
 Create postcss.config.js in your project with content below:
 
-```json
+```javascript
 const postcssConfig = require('@hookooekoo/eslint-config/postcss');
 
 module.exports = postcssConfig;
